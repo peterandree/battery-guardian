@@ -1,0 +1,68 @@
+# Android
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# Gradle
+build/
+gradle/
+.gradle/
+
+# Local properties
+local.properties
+
+# Keystore files
+*.jks
+*.keystore
+
+# Signing files
+signing-config.json
+play-app-signing-key.json
+
+# APK/AAB files
+*.apk
+*.aab
+
+# Generated files
+app/build/
+app/schemas/
+
+# Test results
+**/build/reports/
+**/build/test-results/
+
+# IDE specific
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Kotlin
+*.kotlin_module
+
+# Android Studio
+navigationEditorDetails.xml
+*.nav
+captures/
+output.json
+
+# External tool configurations
+/.externalToolBuilders/
+
+# MCP server
+mcp.json
