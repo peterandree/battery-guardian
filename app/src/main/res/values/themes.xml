@@ -1,3 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.BatteryGuardian" parent="android:style/Theme.Material.Light.NoActionBar" />
+    <!-- Light Theme -->
+    <style name="Theme.BatteryGuardian" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryContainer">@color/primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/primary_on_container</item>
+        
+        <!-- Secondary -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryContainer">@color/secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/secondary_on_container</item>
+        
+        <!-- Tertiary -->
+        <item name="colorTertiary">@color/tertiary</item>
+        <item name="colorTertiaryContainer">@color/tertiary_container</item>
+        <item name="colorOnTertiaryContainer">@color/tertiary_on_container</item>
+        
+        <!-- Error -->
+        <item name="colorError">@color/error</item>
+        <item name="colorErrorContainer">@color/error_container</item>
+        <item name="colorOnErrorContainer">@color/error_on_container</item>
+        
+        <!-- Surface -->
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorSurfaceVariant">@color/surface_variant</item>
+        <item name="colorOnSurface">@color/surface_on</item>
+        <item name="colorOnSurfaceVariant">@color/secondary</item>
+        
+        <!-- Background -->
+        <item name="colorBackground">@color/background</item>
+        <item name="colorOnBackground">@color/background_on</item>
+        
+        <!-- Outline -->
+        <item name="colorOutline">@color/outline</item>
+        <item name="colorOutlineVariant">@color/outline_variant</item>
+        
+        <!-- Text -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:textColorTertiary">@color/text_tertiary</item>
+        
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">@color/surface_container_highest</item>
+        <item name="android:windowLightStatusBar">true</item>
+        
+        <!-- Window -->
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+    
+    <!-- Dark Theme Overrides -->
+    <style name="Theme.BatteryGuardian.Dark" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary -->
+        <item name="colorPrimary">@color/dark_primary</item>
+        <item name="colorPrimaryContainer">@color/dark_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/dark_primary_on_container</item>
+        
+        <!-- Secondary -->
+        <item name="colorSecondary">@color/dark_secondary</item>
+        <item name="colorSecondaryContainer">@color/dark_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/dark_secondary_on_container</item>
+        
+        <!-- Tertiary -->
+        <item name="colorTertiary">@color/dark_tertiary</item>
+        <item name="colorTertiaryContainer">@color/dark_tertiary_container</item>
+        <item name="colorOnTertiaryContainer">@color/dark_tertiary_on_container</item>
+        
+        <!-- Error -->
+        <item name="colorError">@color/dark_error</item>
+        <item name="colorErrorContainer">@color/dark_error_container</item>
+        <item name="colorOnErrorContainer">@color/dark_error_on_container</item>
+        
+        <!-- Surface -->
+        <item name="colorSurface">@color/dark_surface</item>
+        <item name="colorSurfaceVariant">@color/dark_surface_variant</item>
+        <item name="colorOnSurface">@color/dark_surface_on</item>
+        <item name="colorOnSurfaceVariant">@color/dark_secondary</item>
+        
+        <!-- Background -->
+        <item name="colorBackground">@color/dark_background</item>
+        <item name="colorOnBackground">@color/dark_background_on</item>
+        
+        <!-- Outline -->
+        <item name="colorOutline">@color/dark_outline</item>
+        <item name="colorOutlineVariant">@color/dark_outline_variant</item>
+        
+        <!-- Text -->
+        <item name="android:textColorPrimary">@color/dark_text_primary</item>
+        <item name="android:textColorSecondary">@color/dark_text_secondary</item>
+        <item name="android:textColorTertiary">@color/dark_text_tertiary</item>
+        
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">@color/dark_surface_container_highest</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
 </resources>

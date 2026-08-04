@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Battery Guardian</string>
+    <string name="app_description">Monitor, predict, and alert battery levels for your Bluetooth devices</string>
+    
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="refresh">Refresh</string>
+    <string name="settings">Settings</string>
+    
+    <!-- Device List -->
+    <string name="device_list_title">Devices</string>
+    <string name="no_devices">No Bluetooth devices found</string>
+    <string name="no_devices_subtitle">Pair a Bluetooth device to start monitoring</string>
+    <string name="device_unknown">Unknown Device</string>
+    <string name="battery_unknown">??%</string>
+    
+    <!-- Battery Status -->
+    <string name="battery_full">Full</string>
+    <string name="battery_high">High</string>
+    <string name="battery_medium">Medium</string>
+    <string name="battery_low">Low</string>
+    <string name="battery_critical">Critical</string>
+    <string name="battery_charging">Charging</string>
+    <string name="battery_discharging">Discharging</string>
+    <string name="battery_not_available">N/A</string>
+    
+    <!-- Notifications -->
+    <string name="notification_channel_monitoring">Battery Monitoring</string>
+    <string name="notification_channel_alerts">Battery Alerts</string>
+    <string name="notification_title_low_battery">Low Battery Alert</string>
+    <string name="notification_title_prediction">Battery Prediction</string>
+    <string name="notification_message">%1$s is at %2$d%% battery</string>
+    <string name="notification_message_prediction">%1$s will hit %2$d%% in ~%3$s</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_monitoring">Monitoring</string>
+    <string name="settings_alerts">Alerts</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_about">About</string>
+    
+    <string name="settings_polling_interval">Polling Interval</string>
+    <string name="settings_polling_interval_summary">How often to check battery levels</string>
+    <string name="settings_minutes_1">1 minute</string>
+    <string name="settings_minutes_5">5 minutes</string>
+    <string name="settings_minutes_15">15 minutes</string>
+    
+    <string name="settings_low_threshold">Low Battery Threshold</string>
+    <string name="settings_medium_threshold">Medium Battery Threshold</string>
+    <string name="settings_critical_threshold">Critical Battery Threshold</string>
+    <string name="settings_hysteresis_band">Hysteresis Band</string>
+    <string name="settings_hysteresis_summary">Prevent notification spam by requiring battery to rise above threshold + X% to clear alert</string>
+    
+    <string name="settings_notifications_enabled">Enable Notifications</string>
+    <string name="settings_notification_priority">Notification Priority</string>
+    <string name="settings_dark_theme">Dark Theme</string>
+    <string name="settings_battery_display">Battery Display Format</string>
+    
+    <!-- Permissions -->
+    <string name="permission_bluetooth_rationale">Bluetooth permission is required to scan for and connect to Bluetooth devices</string>
+    <string name="permission_location_rationale">Location permission is required for Bluetooth scanning on Android 12+</string>
+    <string name="permission_notification_rationale">Notification permission is required to show battery alerts</string>
+    <string name="permission_battery_optimization_rationale">Battery optimization exemption is required to ensure monitoring continues in the background</string>
+    
+    <!-- Errors -->
+    <string name="error_bluetooth_disabled">Bluetooth is disabled</string>
+    <string name="error_bluetooth_permission_denied">Bluetooth permission denied</string>
+    <string name="error_location_disabled">Location is disabled</string>
+    <string name="error_location_permission_denied">Location permission denied</string>
+    <string name="error_notification_permission_denied">Notification permission denied</string>
+    <string name="error_no_bluetooth_adapter">No Bluetooth adapter found</string>
+    <string name="error_device_connection_failed">Failed to connect to device</string>
+    <string name="error_battery_read_failed">Failed to read battery level</string>
+    
+    <!-- Device Details -->
+    <string name="device_details_title">Device Details</string>
+    <string name="device_name">Name</string>
+    <string name="device_type">Type</string>
+    <string name="device_manufacturer">Manufacturer</string>
+    <string name="device_address">Address</string>
+    <string name="device_last_seen">Last Seen</string>
+    <string name="device_battery_health">Battery Health</string>
+    <string name="device_average_drain_rate">Average Drain Rate</string>
+    <string name="device_capacity_degradation">Capacity Degradation</string>
+    <string name="device_time_between_charges">Time Between Charges</string>
+    
+    <!-- Battery History -->
+    <string name="battery_history_title">Battery History</string>
+    <string name="battery_history_last_24h">Last 24 Hours</string>
+    <string name="battery_history_last_7d">Last 7 Days</string>
+    <string name="battery_history_last_30d">Last 30 Days</string>
+    <string name="battery_history_all">All Time</string>
+    
+    <!-- Actions -->
+    <string name="action_enable_bluetooth">Enable Bluetooth</string>
+    <string name="action_request_permission">Request Permission</string>
+    <string name="action_request_battery_exemption">Request Battery Exemption</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_ignore_device">Ignore Device</string>
+    <string name="action_unignore_device">Stop Ignoring Device</string>
+    <string name="action_rename_device">Rename Device</string>
+    <string name="action_set_manual_battery">Set Battery Level</string>
+    
+    <!-- Time Units -->
+    <string name="time_seconds">%d s</string>
+    <string name="time_minutes">%d m</string>
+    <string name="time_hours">%d h</string>
+    <string name="time_days">%d d</string>
+    <string name="time_now">Now</string>
+    <string name="time_ago">%s ago</string>
+    <string name="time_in">In %s</string>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary">#625BFF</color>
+    <color name="primary_container">#EADDFF</color>
+    <color name="primary_on_container">#000085</color>
+    
+    <!-- Secondary Colors -->
+    <color name="secondary">#605B73</color>
+    <color name="secondary_container">#E8DEF8</color>
+    <color name="secondary_on_container">#1D192B</color>
+    
+    <!-- Tertiary Colors -->
+    <color name="tertiary">#7E5260</color>
+    <color name="tertiary_container">#FFD8E4</color>
+    <color name="tertiary_on_container">#310F23</color>
+    
+    <!-- Error Colors -->
+    <color name="error">#B3261E</color>
+    <color name="error_container">#F9DEDC</color>
+    <color name="error_on_container">#410E0B</color>
+    
+    <!-- Warning Colors -->
+    <color name="warning">#F57F17</color>
+    <color name="warning_container">#FFDBD1</color>
+    <color name="warning_on_container">#472100</color>
+    
+    <!-- Success Colors -->
+    <color name="success">#10B981</color>
+    <color name="success_container">#CCFBEF</color>
+    <color name="success_on_container">#002D13</color>
+    
+    <!-- Battery Level Colors -->
+    <color name="battery_high">#10B981</color>
+    <color name="battery_medium">#F57F17</color>
+    <color name="battery_low">#F97316</color>
+    <color name="battery_critical">#B3261E</color>
+    
+    <!-- Surface Colors -->
+    <color name="surface">#FFFBFE</color>
+    <color name="surface_variant">#E7E0EC</color>
+    <color name="surface_on">#1C1B1F</color>
+    
+    <!-- Background Colors -->
+    <color name="background">#FFFBFE</color>
+    <color name="background_on">#1C1B1F</color>
+    
+    <!-- Outline Colors -->
+    <color name="outline">#79747E</color>
+    <color name="outline_variant">#CAC4D0</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#1C1B1F</color>
+    <color name="text_secondary">#605B73</color>
+    <color name="text_tertiary">#79747E</color>
+    
+    <!-- Dark Theme Colors -->
+    <color name="dark_primary">#D0BCFF</color>
+    <color name="dark_primary_container">#4F378B</color>
+    <color name="dark_primary_on_container">#EADDFF</color>
+    
+    <color name="dark_secondary">#CCC2DC</color>
+    <color name="dark_secondary_container">#4A4458</color>
+    <color name="dark_secondary_on_container">#E8DEF8</color>
+    
+    <color name="dark_tertiary">#EFB8C8</color>
+    <color name="dark_tertiary_container">#604A5E</color>
+    <color name="dark_tertiary_on_container">#FFD8E4</color>
+    
+    <color name="dark_error">#F2B8B5</color>
+    <color name="dark_error_container">#8C1D18</color>
+    <color name="dark_error_on_container">#F9DEDC</color>
+    
+    <color name="dark_surface">#1C1B1F</color>
+    <color name="dark_surface_variant">#4A4458</color>
+    <color name="dark_surface_on">#E7E0EC</color>
+    
+    <color name="dark_background">#1C1B1F</color>
+    <color name="dark_background_on">#E7E0EC</color>
+    
+    <color name="dark_outline">#938F99</color>
+    <color name="dark_outline_variant">#4A4458</color>
+    
+    <color name="dark_text_primary">#E7E0EC</color>
+    <color name="dark_text_secondary">#CCC2DC</color>
+    <color name="dark_text_tertiary">#938F99</color>
+</resources>
